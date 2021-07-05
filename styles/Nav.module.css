@@ -1,0 +1,22 @@
+.navbar_container {
+  padding: 1.5rem;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_item {
+  margin: 0 2rem;
+}
+
+.nav_link {
+  font-weight: 500;
+  transition: color 200ms ease-in-out;
+}
+
+.nav_item:hover a {
+  color: #1e73fc;
+}
