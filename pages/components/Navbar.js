@@ -29,6 +29,12 @@ const Navbar = () => {
             <a className={nav.nav_link}>Location</a>
           </Link>
         </li>
+
+        <li className={nav.nav_item}>
+          <Link href="/service/review">
+            <a className={nav.nav_link}>Review</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   );
